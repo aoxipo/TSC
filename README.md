@@ -8,18 +8,19 @@
       <a href='https://github.com/lingshijiang'>Ronghuan Yan</a> &emsp; 
       <a href='https://github.com/aoxipo'>Junlin Li</a> &emsp; 
       <a href='https://it.ctgu.edu.cn/info/1551/50381.htm'>Weixin Tian*</a> &emsp;
-      <a href='https://indussky8.github.io/'>Nyasha Mkwanda</a>
+      <a href=''>Nyasha Mkwanda</a>
   </div>
   <br/>
 </div>
 
-TSC is frb classfiy deeplearning method based on the paper "TSC: Efficient FRB Signal Search by a Two-stage Cascade Deep Learning Model on FAST", which has been accepted by RAA 2025.
+![Overview](https://github.com/aoxipo/TSC/blob/master/log/Pipline.png)
+TSC is frb classfiy deeplearning method based on the paper <a href='https://iopscience.iop.org/article/10.1088/1674-4527/adb36c'>"TSC: Efficient FRB Signal Search by a Two-stage Cascade Deep Learning Model on FAST"</a> , which has been accepted by RAA 2025.
 
 ## Framework
 
-![Overview](.\log\FrameWork.png)
-
+![Overview](https://github.com/aoxipo/TSC/blob/master/log/FrameWork.png)
 TSC aims to address the challenge of rapid search for Fast Radio Bursts (FRBs) in large-scale observational data, where the scarcity of FRB signals and the vast volume of data hinder efficient detection.   To this end, TSC employs a two-stage deep learning framework optimized for FRB signal characteristics.   Inspired by the structural isomorphism of FRB waveforms, TSC first performs a coarse-grained screening to identify candidate signals quickly, followed by a fine-grained analysis to refine detection accuracy and reduce false positives, enhancing interpretability within the FRB Search framework.
+
 
 # Environment
 
@@ -93,6 +94,7 @@ run run_predict.py  with parameters
 # Log
 
 Please refer to log folder for our experimental parameters and log results
+ 
 
 # Effectiveness On Real DataSet
 
@@ -104,6 +106,9 @@ The data is based on publicly available samples from FAST
 | <img src=".\log\hotmap\7_0.jpg" alt="7_0" width="245" height="245"/> | <img src=".\log\hotmap\7_0_mask.jpg" alt="7_0_mask" width="245" height="245" /> |
 | <img src=".\log\hotmap\28_0.jpg" alt="28_0" width="245" height="245"/> | <img src=".\log\hotmap\28_0_mask.jpg" alt="28_0" width="245" height="245" /> |
 
+# Apendix
+For more results and sensitivity analysis, transfer learning and OTSU are applied for preprocessing to achieve better outcomes at <a href='https://github.com/aoxipo/TSC/blob/master/log/RAA__2024_Appendix.pdf'> here.
+ 
 ## Citation
 
 Please cite this work if you find it useful:
