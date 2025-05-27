@@ -6,7 +6,7 @@
   </div>
   <div>
       <a href='https://github.com/lingshijiang'>Ronghuan Yan</a> &emsp; 
-      <a href='https://github.com/aoxipo'>Junlin Li</a> &emsp; 
+      <a>Junlin Li</a> &emsp; 
       <a href='https://it.ctgu.edu.cn/info/1551/50381.htm'>Weixin Tian*</a> &emsp;
       <a href=''>Nyasha Mkwanda</a>
   </div>
