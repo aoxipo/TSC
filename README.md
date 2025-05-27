@@ -1,6 +1,6 @@
-# TFR
+# TSC
 
-TFR is frb classfiy deeplearning method. is our paper "Efficient FRB Signal Search with Two-Stage Weak Signal Feature Reconstruction" publish code
+TSC is frb classfiy deeplearning method. is our paper "TSC: Efficient FRB Signal Search by a Two-stage Cascade Deep Learning Model on FAST" publish code
 
 # Environment
 
